@@ -31,7 +31,7 @@ index를 활용해서 score 비교 진행하는 식으로 해결했습니다.
 N 길이의 반복문을 돌게 했고 `temp`라는 분모를 선언했습니다. `temp`는
 
 ```
-전체 user 수(**user_num**) - 현재 스테이지 이전 까지 실패한 user 수(**failure_cnt**)
+전체 user 수(user_num) - 현재 스테이지 이전 까지 실패한 user 수(failure_cnt)
 ```
 
 로 계산했습니다.  
