@@ -27,21 +27,23 @@ bool cmp2(pair<string, pair<int, int> > a, pair<string, pair<int, int> > b){
 vector<int> solution(vector<string> genres, vector<int> plays) {
     vector<int> answer;
     map<string, vector<pair<int, int> > > album;
-    vector<pair<string, pair<int,int> > > lastv; // genre, i
+    vector<pair<string, pair<int,int> > > genreAndTwoBestSongs; // genre, i
     
     for(int i=0; i<genres.size(); i++){
         album[genres[i]].push_back({i, plays[i]});
         genreCnt[genres[i]] += plays[i];
     }
     
-    for(auto i = album.begin(); i != album.end(); i++){
-        sort(i->second.begin(), i->second.end(), cmp);
-        lastv.push_back({i->first, {i->second[0].first, i->second.size() == 1 ? -1 : i->second[1].first}});
+    for(auto i : album){
+        string genre = i.first;
+        vector<pair<int, int> > idAndSongCnt = i.second;
+        sort(idAndSongCnt.begin(), idAndSongCnt.end(), cmp);
+        genreAndTwoBestSongs.push_back({genre, {idAndSongCnt[0].first, idAndSongCnt.size() == 1 ? -1 : idAndSongCnt[1].first}});
     }
 
-    sort(lastv.begin(), lastv.end(), cmp2);
+    sort(genreAndTwoBestSongs.begin(), genreAndTwoBestSongs.end(), cmp2);
     
-    for(auto i = lastv.begin(); i!= lastv.end(); i++){
+    for(auto i = genreAndTwoBestSongs.begin(); i!= genreAndTwoBestSongs.end(); i++){
         answer.push_back(i->second.first);
         if(i->second.second != -1)
             answer.push_back(i->second.second);
