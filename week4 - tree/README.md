@@ -9,7 +9,7 @@
 ```
 2. 이진 탐색 트리에서 이진 탐색을 하는 code를 만들어주세요.
 ```
-# TEST 코드 입니다. 주석을 풀고 실행시켜보세요
+# TEST 코드 입니다. 주석을 풀고 실행시켜보세요 첫번째 인자가 node입력, 두번째가 찾으려는 값입니다.
 # print(solution([5, 3, 8, 4, 2, 1, 7, 10], [1, 2, 5, 6])) # [True, True, True, False]
 # print(solution([1, 3, 5, 7, 9], [2, 4, 6, 8, 10])) # [False, False, False, False, False] 
 ```
