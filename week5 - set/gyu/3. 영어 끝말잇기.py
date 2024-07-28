@@ -3,8 +3,6 @@ def solution(n, words):
     dictionary = {}
     answer = [0, 0]
     prev = None
-    index = 0
-    turn = 0
     for i in range(len(words)):
         index = (i % n) + 1
         turn = i // n + 1
