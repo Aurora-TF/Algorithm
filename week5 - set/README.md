@@ -1,7 +1,7 @@
 # 집합
 
 ## 문제(7.1~7.7)
-1. 간단한 유니온 파인드를 구현 - 문제x
+1. 간단한 유니온 파인드를 구현 - 문제x (https://github.com/dremdeveloper/codingtest_python/blob/main/solution/33.py)
 2. 폰켓몬: https://school.programmers.co.kr/learn/courses/30/lessons/1845
 3. 영어 끝말잇기: https://school.programmers.co.kr/learn/courses/30/lessons/12981
 4. 전화번호 목록: https://school.programmers.co.kr/learn/courses/30/lessons/42577
