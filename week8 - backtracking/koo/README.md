@@ -2,6 +2,9 @@
 
 ## 1. 피로도 (programmers 87946)
 
+바보 같이 다 풀어 놓고 마지막에 방문하지 않은 던전을 세서 시간 쓴 문제 입니다.
+dfs를 활용한 backtracking 으로 풀 수 있습니다.
+
 ## 3. 양궁대회 (programmers 92342)
 
 dfs를 활용한 backtracking 으로 풀었습니다.  
