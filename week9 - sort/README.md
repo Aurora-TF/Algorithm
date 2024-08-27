@@ -1,11 +1,10 @@
 # Backtracking
 
 ## 문제(8.26~9.1)
-1. 피로도: https://school.programmers.co.kr/learn/courses/30/lessons/87946
-2. N퀸: https://school.programmers.co.kr/learn/courses/30/lessons/12952
-3. 양궁대회: https://school.programmers.co.kr/learn/courses/30/lessons/92342
-4. 외벽점검: https://school.programmers.co.kr/learn/courses/30/lessons/60062
-5. 사라지는 발판: https://school.programmers.co.kr/learn/courses/30/lessons/92345 -> 담주?!
+1. 사라지는 발판: https://school.programmers.co.kr/learn/courses/30/lessons/92345
+2. 리미노님의 문제
+3. 쿽정렬 정리 및 구현
+4. 병합 정렬 정리 및 구현
 
 ## Rule
 1. PR또는 README에 문제 풀이 방식을 올려주세요.
