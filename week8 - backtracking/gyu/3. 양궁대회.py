@@ -45,3 +45,8 @@ def solution(n, info):
     if brian_max == 0:
         return [-1]
     return brian_array
+
+from itertools import combinations_with_replacement, combinations
+
+for combi in combinations(range(11), 5):
+    print(combi)
