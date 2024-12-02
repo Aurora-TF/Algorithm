@@ -5,7 +5,7 @@ def to_binary(value):
         ret += str(res)
         value = value // 2
     
-    return ret[::-1]
+    return ret[::-1] # 문자열을 거꾸로 순회하는 방법
 
 def solution(s):
     r = 0
